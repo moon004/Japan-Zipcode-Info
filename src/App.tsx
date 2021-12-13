@@ -45,13 +45,14 @@ function App() {
     <div className="App">
       <div className="main__div">
         <div className="textField__div">
+          <span style={{ color: "#D42020" }}>〒</span>
           <TextField
             type="number"
             placeholder="079"
             inputHook={firstZip}
             style={{ width: "4rem" }}
           />
-          <span style={{ fontSize: "2.2rem", margin: "0 0.8rem" }}>—</span>
+          <span>—</span>
           <TextField type="number" placeholder="0177" inputHook={secondZip} />
           <BounceLoader
             loading={loading}
