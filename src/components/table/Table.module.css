@@ -1,0 +1,14 @@
+table {
+  margin: 0 auto;
+  font-size: 2rem;
+  border-collapse: separate;
+  border-spacing: 1rem;
+}
+
+tr td {
+  border: 2px solid black;
+}
+
+.mainBodyRow {
+  background: white;
+}
